@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <!-- log in part start -->
+    <div class="logInBox" id="logInBox">
+        <h4>JavaScript Banking Management</h4>
+
+        <div class="inputField">
+          <input type="text" name="" class="inputNumPass" id="accountNum" placeholder="account number"><br>
+          <input type="password" name="" class="inputNumPass" id="accountPass" placeholder="account password"><br>
+
+          <button class="submitBtn" id="submitBtn">Submit</button>
+        </div>
+    </div>
+    <!-- log in part end -->
+
+
+
+    <!-- main page start -->
+        <div class="mainPage" id="mainPage">
+            <!-- balance -->
+            <div class="balance">
+                <h1>Your balance is :<span id="totalBalance">1000</span></h1>
+            </div>
+
+
+            <!-- diposite & withdraw -->
+            <div class="dipoWithdraw">
+                <div class="diposite">
+                    <h1>Diposite :<span id="totalDepo"> 00 </span></h1>
+                    <input type="number" name="" id="dipoInput" placeholder="diposite amount">
+                    <br>
+                    <button class="addBtn" id="dipoBtn">Add Amount</button>
+                </div>
+
+                <div class="Withdraw">
+                    <h1>Withdraw :<span id="totalDraw"> 00 </span></h1>
+                    <input type="number" name="" id="withdInput" placeholder="Withdraw amount">
+                     <br>
+                    <button class="addBtn" id="drawBtn">Withdraw</button>
+                </div>
+            </div>
+
+            <br><br><br><br><br>
+        </div>
+    <!-- main page end -->
+
+
+
+    <script src="main .js"></script>
+</body>
+</html>
